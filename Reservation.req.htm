@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Request </title>
+    <style>
+        fieldset{
+            
+            
+        }
+        legend{
+            color: blue;
+        }
+    
+    </style>
+</head>
+<body>
+    <fieldset style="border : 5px solid blue ; width : 900px;" >
+        <pre>
+            <h1 > Reservation Request</h1> 
+        </pre>
+
+        <fieldset >
+         <legend>
+            <B>General Information </B>
+         </legend>  
+          Arrival Date :<input type="date"> <span style="color: red;"> Arrival date is invilid.</span><br><br>
+          Nights :<input type="text"> <span style="color: red;"> Nights must be a number.</span><br><br>
+          Adults : <input type="number" style="width: 30px;"><br><br>
+          Chidren : <input type="number" style="width: 30px;">
+        </fieldset> <br>
+     <fieldset> 
+             <legend>
+            <B>Preference</B>
+         </legend>  
+          Room Type : <input type="radio" name="Room" id=""> Standard <input type="radio" name="Room" id=""> Business <input type="radio" name="Room" id=""> Suite <br> <br>
+          Bed Type : <input type="radio" name="Room" id=""> King <input type="radio" name="Room" id=""> Double Double <input type="radio" name="Room" id=""> Suite <br> <br>
+          <input type="checkbox"> Smoking
+        </fieldset>
+        <fieldset> 
+            <legend>
+           <B>Contact Information</B>
+        </legend>  
+        Name : <input type="text"> <span style="color: red;"> Name is required.</span> <br> <br>
+        email : <input type="email"> <span style="color: red;"> Email Adress is Invalid.</span> <br> <br>
+        Phone : <input type="tel"> <span style="color: red;"> Phone number is required.</span>
+       </fieldset>
+
+      <pre>
+        <br> <input type="submit" name="" id="" style="width: 150px;">                        <input type="reset" name="" id="" style="width: 150px;">
+    </pre>
+   </fieldset>
+        </fieldset>
+     
+</body>
+</html>
