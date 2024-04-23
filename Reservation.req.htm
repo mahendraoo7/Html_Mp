@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation Request </title>
     <style>
-        fieldset{
-            
-            
-        }
+        
         legend{
             color: blue;
+        }
+        .content{
+            max-width: 400px;
+            margin: 300px;
         }
     
     </style>
 </head>
-<body>
+<body class="content">
     <fieldset style="border : 5px solid blue ; width : 900px;" >
-        <pre>
-            <h1 > Reservation Request</h1> 
-        </pre>
+    
+            <h1>Reservation Request</h1> 
 
         <fieldset >
          <legend>
@@ -37,18 +37,18 @@
           Room Type : <input type="radio" name="Room" id=""> Standard <input type="radio" name="Room" id=""> Business <input type="radio" name="Room" id=""> Suite <br> <br>
           Bed Type : <input type="radio" name="Room" id=""> King <input type="radio" name="Room" id=""> Double Double <input type="radio" name="Room" id=""> Suite <br> <br>
           <input type="checkbox"> Smoking
-        </fieldset>
-        <fieldset> 
+        </fieldset> <br>
+        <fieldset>
             <legend>
            <B>Contact Information</B>
         </legend>  
-        Name : <input type="text"> <span style="color: red;"> Name is required.</span> <br> <br>
+        Name : <input type="text" placeholder="Enter your Name"> <span style="color: red;"> Name is required.</span> <br> <br>
         email : <input type="email"> <span style="color: red;"> Email Adress is Invalid.</span> <br> <br>
         Phone : <input type="tel"> <span style="color: red;"> Phone number is required.</span>
        </fieldset>
 
       <pre>
-        <br> <input type="submit" name="" id="" style="width: 150px;">                        <input type="reset" name="" id="" style="width: 150px;">
+        <br> <input type="submit" value="Submit Reservation" style="width: 150px;">                        <input type="reset" value="Clear" style="width: 150px;">
     </pre>
    </fieldset>
         </fieldset>
