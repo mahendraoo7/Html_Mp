@@ -17,41 +17,43 @@
     </style>
 </head>
 <body class="content">
+     <form action="./inquiryForm.htm">
     <fieldset style="border : 5px solid blue ; width : 900px;" >
     
             <h1>Reservation Request</h1> 
 
-        <fieldset >
-         <legend>
-            <B>General Information </B>
-         </legend>  
-          Arrival Date :<input type="date"> <span style="color: red;"> Arrival date is invilid.</span><br><br>
-          Nights :<input type="text"> <span style="color: red;"> Nights must be a number.</span><br><br>
-          Adults : <input type="number" style="width: 30px;"><br><br>
-          Chidren : <input type="number" style="width: 30px;">
-        </fieldset> <br>
-     <fieldset> 
+    <fieldset >
+    <legend>
+    <B>General Information </B>
+    </legend>  
+         Arrival Date <label>:<input type="date"> <span style="color: red;">Arrival date is invilid.</span><br><br></label>
+         Nights :<input type="text"> <span style="color: red;"> Nights must be a number.</span><br><br>
+         Adults : <input type="number" style="width: 30px;"><br><br>
+         Chidren : <input type="number" style="width: 30px;">
+    </fieldset> <br>
+    <fieldset> 
              <legend>
             <B>Preference</B>
          </legend>  
-          Room Type : <input type="radio" name="Room" id=""> Standard <input type="radio" name="Room" id=""> Business <input type="radio" name="Room" id=""> Suite <br> <br>
-          Bed Type : <input type="radio" name="Room" id=""> King <input type="radio" name="Room" id=""> Double Double <input type="radio" name="Room" id=""> Suite <br> <br>
+         Room Type : <input type="radio" name="Room" id=""> Standard <input type="radio" name="Room" id=""> Business <input type="radio" name="Room" id=""> Suite <br> <br>
+         Bed Type : <input type="radio" name="Room" id=""> King <input type="radio" name="Room" id=""> Double Double <input type="radio" name="Room" id=""> Suite <br> <br>
           <input type="checkbox"> Smoking
         </fieldset> <br>
         <fieldset>
             <legend>
            <B>Contact Information</B>
         </legend>  
-        Name : <input type="text" placeholder="Enter your Name"> <span style="color: red;"> Name is required.</span> <br> <br>
-        email : <input type="email"> <span style="color: red;"> Email Adress is Invalid.</span> <br> <br>
-        Phone : <input type="tel"> <span style="color: red;"> Phone number is required.</span>
+         Name : <input type="text" placeholder="Enter your Name"> <span style="color: red;"> Name is required.</span> <br> <br>
+         Email : <input type="email"> <span style="color: red;"> Email Adress is Invalid.</span> <br> <br>
+         Phone : <input type="tel"> <span style="color: red;"> Phone number is required.</span>
        </fieldset>
+
 
       <pre>
         <br> <input type="submit" value="Submit Reservation" style="width: 150px;">                        <input type="reset" value="Clear" style="width: 150px;">
     </pre>
    </fieldset>
         </fieldset>
-     
+    </form>
 </body>
 </html>
