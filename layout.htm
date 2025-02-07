@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+         .boxwe {
+             border: 2px solid black;
+             height: 40px;
+             width: 40px;
+             background-color:blue;
+             /* z-index: 50; */
+         }
+         .down {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+         }
+         #pos{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            border: 2px solid red;  
+            background-color: green;
+         }
+    </style>
+</head>
+<body>
+     <div class="main">
+          <div>
+             <div class=""></div>
+          </div>
+          <div class="down">
+              <div class="boxwe"></div>
+              <div id="pos"></div>
+              <div class="boxwe"></div>
+            </div>
+     </div>
+</body>
+</html>
